@@ -6,7 +6,7 @@ use lib\Fetcher;
 
 $sources = array('Fdb', 'Filmweb', 'Portalfilmowy');
 
-$fetcher = new Fetcher\CacheCurlFetcher(__DIR__ . '/data', 3600);
+$fetcher = new Fetcher\CacheCurlFetcher('/tmp/movie_repo', 3600);
 
 $search['title'] = 'gladiator';
 $search['year'] = 2000;
