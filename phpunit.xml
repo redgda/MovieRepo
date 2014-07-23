@@ -1,0 +1,8 @@
+<phpunit colors="true" stopOnFailture="true" bootstrap="bootstrap.php" verbose="true">
+    <testsuites>
+        <testsuite name="MovieRepo">
+            <directory suffix="Test.php">./lib/MovieRepo/tests</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
+
