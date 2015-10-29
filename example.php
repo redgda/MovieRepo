@@ -25,4 +25,3 @@ foreach ($sources as $source)
     echo "plot: {$data['plot']}\n";
     echo "\n";
 }
-
